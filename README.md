@@ -18,7 +18,7 @@ An agentic Retrieval-Augmented Generation (RAG) system built using LangGraph wit
 
 ---
 
-# 📌 Overview
+# Overview
 
 This project is a hybrid RAG assistant built using LangGraph that intelligently routes user queries between:
 
@@ -37,7 +37,7 @@ The application supports:
 
 ---
 
-# ✨ Features
+# Features
 
 - 🤖 Agentic workflow using LangGraph
 - 📚 PDF-based Retrieval-Augmented Generation
@@ -52,7 +52,7 @@ The application supports:
 
 ---
 
-# 🏗️ Architecture
+# Architecture
 
 ```mermaid
 flowchart TD
@@ -75,7 +75,7 @@ flowchart TD
 
 ---
 
-# 🔄 LangGraph Workflow
+# LangGraph Workflow
 
 ```mermaid
 flowchart LR
@@ -93,7 +93,7 @@ flowchart LR
 
 ---
 
-# 🧠 Workflow Explanation
+# Workflow Explanation
 
 ### 🔹 Router Node
 The router node uses an LLM to determine whether the query should use:
@@ -128,7 +128,7 @@ The generate node:
 
 ---
 
-# 🛠️ Tech Stack
+# Tech Stack
 
 - **LangGraph** — Workflow orchestration
 - **LangChain** — RAG framework
@@ -141,7 +141,7 @@ The generate node:
 
 ---
 
-# 📂 Project Structure
+# Project Structure
 
 ```bash
 LangGraph_Project/
@@ -161,7 +161,7 @@ LangGraph_Project/
 
 ---
 
-# ⚙️ Environment Variables
+# Environment Variables
 
 Create a `.env` file:
 
@@ -172,7 +172,7 @@ TAVILY_API_KEY=your_tavily_api_key
 
 ---
 
-# 🚀 Installation & Setup
+# Installation & Setup
 
 ## 1️⃣ Clone Repository
 
@@ -201,7 +201,7 @@ uv run streamlit run main.py
 
 ---
 
-# 📚 PDF Ingestion
+# PDF Ingestion
 
 Place your PDF files inside:
 
@@ -219,7 +219,7 @@ inside the Streamlit UI.
 
 ---
 
-# 💡 Example Queries
+# Example Queries
 
 - What are the symptoms of malaria?
 - What is the latest WHO malaria report?
@@ -228,7 +228,7 @@ inside the Streamlit UI.
 
 ---
 
-# 🔮 Future Improvements
+# Future Improvements
 
 - Multi-agent research workflows
 - Reflection-based retrieval
@@ -240,13 +240,13 @@ inside the Streamlit UI.
 
 ---
 
-# 📜 License
+# License
 
 This project is open-source and available under the MIT License.
 
 ---
 
-# 🙌 Acknowledgements
+# Acknowledgements
 
 - LangGraph
 - LangChain
